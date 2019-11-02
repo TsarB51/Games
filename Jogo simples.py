@@ -25,7 +25,13 @@ algumas coisas.''')
 <3> Roubar o que você estava comprando.''')
     inicio_ataque = int(input('Escolha: '))
     if inicio_ataque == 1:
-        print('test')
+        print(''''Bem voçê corre para uma
+casa aleatoria, na casa tinha um pirata
+e ele ti ver te dar um tiro. ''')
+        sleep(4)
+        print('VOCÊ MORREU.')
+        sleep(3)
+        os.system('pause')
     os.system('pause')
     
 else:
